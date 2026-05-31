@@ -1,0 +1,19 @@
+@keyframes flash-green {
+  0%   { background-color: #bbf7d0; }
+  40%  { background-color: #86efac; }
+  100% { background-color: #f0fdf4; }
+}
+
+@keyframes flash-red {
+  0%   { background-color: #fecaca; }
+  40%  { background-color: #f87171; }
+  100% { background-color: #fef2f2; }
+}
+
+.animate-flash-green {
+  animation: flash-green 0.7s ease-out forwards;
+}
+
+.animate-flash-red {
+  animation: flash-red 0.7s ease-out forwards;
+}
