@@ -1,0 +1,1 @@
+function t(r){return r>=97?1:r>=94?1.25:r>=91?1.5:r>=88?1.75:r>=85?2:r>=82?2.25:r>=79?2.5:r>=76?2.75:r>=75?3:5}function u(r){return r===1?"text-green-700":r<=1.5?"text-green-600":r<=2?"text-blue-600":r<=2.5?"text-amber-600":r<=3?"text-orange-600":"text-red-600"}function f(r){return r.toFixed(2)}export{f,u as g,t as p};
